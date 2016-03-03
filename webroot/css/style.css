@@ -1,0 +1,229 @@
+
+/**
+* Import CSS for navbar and links
+*/
+@import url(dice.css);
+@import url(navbar.css);
+@import url(table.css);
+@import url(figure.css);
+@import url(breadcrumb.css);
+@import url(gallery.css);
+
+
+/** 
+* General elements
+*/
+
+html {
+		background: url(../img/backgrounds/theatre.jpg);
+		/*background: rgba(179,37,70,0.8);*/
+		background-attachment: fixed;
+		background-size: auto;
+		background-size:   cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		
+}
+body {
+	color: #333;
+	font-family: 'Century Gothic', sans-serif;
+	padding-top: 15px;
+	
+
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+	text-decoration: underline;
+	
+}
+
+a:hover {
+	color: #b91212;
+}
+
+/* style for different fonts */
+.colorful {
+	font-family: 'Lobster';
+	text-decoration: none;
+}
+
+.colorful a {
+	text-decoration: none;
+}
+
+/* Style for the span class red */
+span.red {
+	color: #b91212;
+	font-weight: bold;
+	font-style: italic;
+}
+
+span.red a {
+	color:#b91212;
+	text-decoration: none;
+}
+
+span.red a:hover {
+	color:black;
+}
+
+
+
+
+/* Style for list items */
+li {
+	list-style-type: none;
+}
+
+/**
+* Layout of the main page elements
+*/
+#wrapper, #head {
+	margin: 0 auto;
+	width: 980px;
+	padding: 10px;
+	background: white;
+	border-radius: 5px;
+	margin-bottom: 25px;
+	margin-top: 10px;
+	
+
+}
+
+
+
+
+/**
+* Layout for header
+*/
+#header {
+	
+	position: relative;
+	border-radius: 4px;
+}
+
+#header form {
+	float: right;
+}
+
+.sitetitle, .siteslogan {
+	font-family: 'Lobster', cursive;
+}
+
+.sitetitle {
+	position: absolute;
+	top: 6px;
+	left: 130px;
+	font-size: 48px;
+}
+
+.siteslogan {
+	position: absolute;
+	top: 65px;
+	left: 130px;
+	font-style: italic;
+	color: #b91212;
+
+}
+
+.sitelogo {
+	padding-top: 5px;
+}
+
+textarea { 
+    width: 500px; 
+    height: 200px; 
+} 
+
+
+
+
+
+
+
+/** 
+* Layout for main
+*/
+#main {
+	min-height: 20em;
+	margin-top: 10px;
+	padding-left: 5px;
+	padding-right: 30px;
+
+}
+
+
+/* Style for the startpage */
+ #contentleft {
+	width: 84%;
+	vertical-align: top;
+	float: left;
+	margin-top: 10px;
+ }
+
+
+#contentright {
+	width: 15%;
+	vertical-align: top;
+	float: right;
+}
+
+
+
+/* Style for selected movie page */
+#movieright {
+	width: 80%;
+	vertical-align: top;
+	float: right;
+	margin-top: 10px;
+ }
+
+#movieleft {
+	width: 20%;
+	vertical-align: top;
+	float: left;
+}
+
+
+#movieleft img {
+	margin-top: 65px;
+	border-radius: 5px;
+
+/*	old style before img.php implementation
+
+	max-height: 260px;
+	max-width: 180px; 
+	
+*/
+}
+
+
+
+.clear {
+	clear: both;
+}
+
+
+/**
+* Layout for footer
+*/
+#footer {
+	margin-top: 40px;
+	border-top: 1px solid #ccc;
+	padding-top: 15px;
+}
+
+.sitefooter {
+	
+}
+.sitefooter a {
+	color: #b91212;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+}
+.sitefooter a:hover {
+	color:black;
+}

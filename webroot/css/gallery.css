@@ -1,0 +1,44 @@
+/** 
+ * CSS for gallery.php
+ */
+ul.gallery {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.gallery li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+ul.gallery li {
+  padding: 4px;
+}
+
+ul.gallery li figure  {
+  margin: 0;
+}
+
+ul.gallery li figure figcaption {
+  font-size: 0.80em;
+  color: black;
+  text-align: center;
+  padding-top: 3px;
+}
+
+ul.gallery li:hover  {
+	background: rgba(255,212,225,0.45);
+	border-radius: 20px;
+}
+
+ul.gallery li:hover figcaption {
+  color: #111;
+}
+
+ul.gallery li a  {
+  text-decoration: none;
+}

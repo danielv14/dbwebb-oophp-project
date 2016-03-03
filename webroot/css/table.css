@@ -1,0 +1,115 @@
+
+/* Style for general table */
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+table,
+th,
+td {
+ 
+  padding: 3px;
+  text-align: left;
+  border-collapse: collapse;
+  padding-left: 10px;
+  
+  
+  
+} 
+
+th {
+	
+}
+
+tr:nth-child(even) {
+	background: rgba(204,204,204,0.28);
+}
+
+tr:nth-child(odd) {
+	background: #FFF;
+}
+
+td.movie img {
+	width: 120px;
+	border-radius: 2px;
+}
+
+td img:hover {
+	opacity: 0.4;
+}
+
+
+
+form a {
+	color: black;
+	
+	padding: 2px;
+	border-radius: 2px;
+}
+
+form a:hover {
+}
+
+fieldset {
+	border: 0 none;
+}
+
+table {
+	width: 100%;
+}
+
+table a {
+	text-decoration: none;
+	color: black;
+	padding: 2px;
+}
+
+table a:hover {
+	color: #b91212;
+}
+
+div .rows a {
+	text-decoration: none;
+	color: black;
+	font-size: large;
+}
+
+div .rows a:hover {
+	text-decoration: none;
+	color: #b91212;
+	font-size: large;
+}
+
+/* Style for 3 latest movie table */
+
+table.threelatest {
+	width: auto;
+	display: inline;
+	background-color: white;
+	text-align: left;
+	margin-right: 2px;
+	margin-left: auto;
+	margin-top: 0px;
+}
+
+table.threelatest th {
+	background: white;
+	text-align: center;
+}
+
+table.threelatest td {
+	background: white;
+}
+
+table.threelatest td img {
+	border-radius: 3px;
+}
+
+
+
+
+
+
+

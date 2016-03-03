@@ -1,0 +1,1 @@
+Miletus is a PHP-boilerplate/framework for small websites. Miletus was built på Daniel with the help of Mikael Roos.
